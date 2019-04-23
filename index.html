@@ -3,10 +3,19 @@
         <meta charset="utf-8" />
         <title>Beaten Path</title>
 
-        <script
-          src="https://code.jquery.com/jquery-3.4.0.min.js"
-          integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-          crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                $.getJSON('data.json', function (data) {
+                // Work with your JSON data here..
+                console.log("degree " + data[0].degree);
+                console.log("filepath " + data[0].filepath)
+                });
+            });
+        </script>
+
 
     </head>
 

@@ -1,10 +1,10 @@
 [
     {
         "degree":"Test",
-        "file":"filepath.png"
+        "filepath":"filepath.png"
     },
     {
         "degree":"Test 2",
-        "file":"filepath2.png"
+        "filepath":"filepath2.png"
     }
 ]
