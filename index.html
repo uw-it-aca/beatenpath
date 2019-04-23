@@ -16,6 +16,7 @@
                     // Populate drop down menu with degrees from JSON
                     var $degreeSelector = $("#degree-select");
                     $degreeSelector.empty();
+                    $degreeSelector.append("<option selected>Select a degree program</option>")
                     $.each(data, function(key, value) {
                         $degreeSelector.append("<option>" + value.degree + "</option>")
                     });
@@ -54,7 +55,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <select id="degree-select">
-                        <option selected>Select a degree program</option>
+                        <option>Loading...</option>
                     </select>
 
                     <img src="#" alt="" title="test" />

@@ -1,10 +1,18 @@
 [
     {
-        "degree":"Test",
+        "degree":"Bachelor of Science in Informatics: Data Science",
         "filepath":"filepath.png"
     },
     {
-        "degree":"Test 2",
+        "degree":"Bachelor of Science in Informatics:  Human-Computer Interaction",
+        "filepath":"filepath2.png"
+    },
+    {
+        "degree":"Bachelor of Science in Informatics: Information Architecture",
+        "filepath":"filepath2.png"
+    },
+    {
+        "degree":"Bachelor of Science in Informatics: Information Assurance and Cybersecurity",
         "filepath":"filepath2.png"
     }
 ]
