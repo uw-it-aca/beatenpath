@@ -1,18 +1,942 @@
 [
     {
-        "degree":"Bachelor of Science in Informatics: Data Science",
-        "filepath":"filepath.png"
+      "campus": "Seattle",
+      "degree": "Aeronautical and Astronautical Engineering",
+      "filepath": null
     },
     {
-        "degree":"Bachelor of Science in Informatics:  Human-Computer Interaction",
-        "filepath":"filepath2.png"
+      "campus": "Seattle",
+      "degree": "American Ethnic Studies",
+      "filepath": null
     },
     {
-        "degree":"Bachelor of Science in Informatics: Information Architecture",
-        "filepath":"filepath2.png"
+      "campus": "Seattle",
+      "degree": "American indian Studies",
+      "filepath": null
     },
     {
-        "degree":"Bachelor of Science in Informatics: Information Assurance and Cybersecurity",
-        "filepath":"filepath2.png"
+      "campus": "Seattle",
+      "degree": "Anthropology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Anthropology: Medical Anthropology and Global Health",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Anthropology: Archaeological Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Anthropology: Anthropology of Globalization",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Anthropology: Human Evolutionary Biology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Engineering and Physical Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Biological and Life Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Mathematical  Economics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Discrete Mathematics and Algorithms",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Scientific Computing and Numerical Analysis",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Data Science and Statistics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Applied and Computational Math Sciences: Social and Behavioral Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Orchestral instruments",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Composition",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Piano",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "String Instruments",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Music Education",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Voice",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Aquatic and Fishery Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Architectural Design (Dual Degree)",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Architecture",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Art",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Art History",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Asian Languages and Cultures",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Astronomy",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Atmospheric Sciences: Climate",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Atmospheric Sciences: Meteorology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Atmospheric Sciences: Chemistry",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biochemistry",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biochemistry",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Bioengineering: Nanoscience and Molecular Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Bioengineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biology: Ecology, Evolution, and Conservation",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biology: General",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biology: Physiology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biology: Molecular, Cellular, and Development",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biology: Plant",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Biology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Bioresource Science and Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Bioresource Science and Engineering: Business Option",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration: Marketing",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration: Accounting",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration: Finance",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration: Information Systems",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration: Operations and Supply Chain Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration:  Human Resource Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Business Administration: Entrepreneurship",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Chemical Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Chemical Engineering: Nanoscience and Molecular Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Chemistry",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Chemistry: ACS Certified",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Chemistry",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Chinese",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Cinema and Media Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Civil Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Classical Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Classics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Communication",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Communication: Journalism",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Community, Environment, and Planning",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Comparative History of Ideas",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Comparative Literature: Cinema Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Comparative Literature",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Comparative Religion",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Computer Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Computer Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Computer Science: Data Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Construction Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Construction Management (Dual Degree)",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Dance",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Dance: Creative Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Dance: Dance Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Danish",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Interaction Design",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Industrial Design",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Visual Communication Design",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Drama: Performance",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Drama",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Drama: Design",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Early Childhood and Family Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Early Childhood and Family Studies: Teaching and Learning",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Earth and Space Sciences: Geology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Earth and Space Sciences: Environmental",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Earth and Space Sciences: Biology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Earth and Space Sciences: Physics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Earth and Space Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Eastern European Languages, Literature, and Culture",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Economics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Economics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Education, Communities and Organizations",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Electrical Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Electrical Engineering: Nanoscience and Molecular Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "English",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "English: Creative Writing",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Health",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Science and Terrestrial Resource Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Science and Terrestrial Resource Management: Wildlife Conservation",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Science and Terrestrial Resource Management: Sustainable Forest Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Science and Terrestrial Resource Management: Restoration Ecology and Environmental Horticulture",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Science and Terrestrial Resource Management: Natural Resource and Environmental Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Environmental Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Finnish",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "French",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Gender, Women, and Sexuality Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Geography",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Germanics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Greek",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Health Informatics and Health Information Management",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "History",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "History: War and Society",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "History: Empire and Colonialism",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "History: Race, Gender, and Power",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "History: Religion and Society",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "History and Philosophy of Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Human Centered Design and Engineering: Human-Computer Interaction",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Human Centered Design and Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Individualized Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Industrial Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Informatics: Human-Computer Interaction",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Informatics: Information Architecture",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Informatics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Informatics: Data Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Informatics: Information Assurance and Cybersecurity",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Integrated Social Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "International Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "International Studies: Asia",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "International Studies: Europe",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "International Studies: Jewish Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "International Studies: Latin America and Caribbean",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Italian",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Japanese",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Korean",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Landscape Architecture",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Latin",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Law, Societies, and Justice",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Linguistics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Materials Science and Engineering: Nanoscience and Molecular Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Materials Science and Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mathematics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mathematics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mathematics: Teacher Preparation",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mathematics: Philosophy",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mechanical Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mechanical Engineering: Nanoscience and Molecular Engineering",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Mechanical Engineering: Mechatronics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Clinical Health Services",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Medical Laboratory Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Microbiology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Music",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Ethnomusicology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Music: Voice",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Jazz Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "American Music",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Music: Music History",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Music Theory",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Near Eastern Studies: Languages and Cultures",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Near Eastern Studies: Biblical and Ancient Near Eastern Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Near Eastern Studies: Culture and Civilization",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Neuroscience",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Norwegian",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Nursing",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Oceanography",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Philosophy",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Physics: Applied Physics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Physics: Comprehensive Physics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Physics: Biophysics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Physics: Teacher Preparation",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Political Science",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Political Science: Political Economy",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Political Science: International Security",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Psychology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Psychology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Public Health-Global Health",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Public Health-Global Health",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Romance Linguistics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Russian Language, Literature, and Culture",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Scandinavian Area Studies",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Social Welfare",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Sociology",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "South Asian Languages",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Spanish",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Speech and Hearing Sciences",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Statistics",
+      "filepath": null
+    },
+    {
+      "campus": "Seattle",
+      "degree": "Swedish",
+      "filepath": null
     }
-]
+  ]
