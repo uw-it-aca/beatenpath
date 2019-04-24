@@ -1,18 +1,19 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="favicon.png">       
         <title>Beaten Path</title>
         <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
         <script type="text/javascript">
-
+        
             $(document).ready(function () {
                 $.getJSON('data.json', function (data) {
                     // Work with your JSON data here..
                     console.log("degree " + data[0].degree);
                     console.log("filepath " + data[0].filepath)
-
+        
                     // Populate drop down menu with degrees from JSON
                     var $degreeSelector = $("#degree-select");
                     $degreeSelector.empty();
@@ -23,48 +24,92 @@
                 });
             });
         </script>
-
-        <!-- Bootstrap CSS -->
+        
+        <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- custom BP stylesheet -->
+        <link href="css/styles.css" rel="stylesheet">
         <title>Beaten Path</title>
     </head>
 
     <body>
-         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Beaten Path</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active" style="display: none;">
-                            <a class="nav-link" href="#">Home
-                                <span class="sr-only">(current)</span>
+        <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"><h1>Beaten Path</h1></a>
+            <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search degree programs" aria-label="Search">-->
+            <select id="degree-select" class="form-control form-control-dark w-100 form-control-lg">
+                <option>Loading...</option>
+            </select>
+        </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span data-feather="home"></span>
+                                Welcome {UWNetID} <span class="sr-only">(current)</span>
                             </a>
                         </li>
                     </ul>
+                    <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Degree Programs</span>
+                    </h3>
+                    <ul class="nav flex-column"> 
+                        <li class="nav-item">
+                        </li>                       
+                    </ul>
+                
+                    <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Filter data</span>
+                    </h3>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                    <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>About this data</span>
+                    </h3>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                        <p class="px-3">
+                                    <span>2013-2018</span><br>
+                                    <span>78 Students</span>
+                        </p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                <h2 id="degree-title" class="h2"></h2>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group mr-2">
+                        <button class="btn btn-sm btn-outline-secondary">Share</button>
+                        <button class="btn btn-sm btn-outline-secondary">Export</button>
+                    </div>
                 </div>
             </div>
-        </nav>
-
-        <!-- page content -->
-
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-12">
-                    <select id="degree-select">
-                        <option>Loading...</option>
-                    </select>
-
-                    <img src="#" alt="" title="test" />
-                </div>
+            <div class="my-4">
+                <img src="#" alt="" title="test" />
+                <!-- <img src="assets/INFO_20-BSInformatics_InformationArchitecture.png" alt="INFO_20-BSInformatics_ InformationArchitecture" width="900" title="" /> -->
             </div>
-        </div>
+        </main>
+    </div>
+</div>
 
+    <!-- Core JavaScript -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+  </body>
 </html>
