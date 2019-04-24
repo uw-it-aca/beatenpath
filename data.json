@@ -156,12 +156,12 @@
     },
     {
       "campus": "Seattle",
-      "degree": "Biochemistry",
+      "degree": "Biochemistry (BS)",
       "filepath": null
     },
     {
       "campus": "Seattle",
-      "degree": "Biochemistry",
+      "degree": "Biochemistry (BA)",
       "filepath": null
     },
     {
@@ -456,12 +456,12 @@
     },
     {
       "campus": "Seattle",
-      "degree": "Economics",
+      "degree": "Economics (BA)",
       "filepath": null
     },
     {
       "campus": "Seattle",
-      "degree": "Economics",
+      "degree": "Economics (BS)",
       "filepath": null
     },
     {
@@ -711,12 +711,12 @@
     },
     {
       "campus": "Seattle",
-      "degree": "Mathematics",
+      "degree": "Mathematics (BA)",
       "filepath": null
     },
     {
       "campus": "Seattle",
-      "degree": "Mathematics",
+      "degree": "Mathematics (BS)",
       "filepath": null
     },
     {
@@ -871,22 +871,22 @@
     },
     {
       "campus": "Seattle",
-      "degree": "Psychology",
+      "degree": "Psychology (BS)",
       "filepath": null
     },
     {
       "campus": "Seattle",
-      "degree": "Psychology",
+      "degree": "Psychology (BA)",
       "filepath": null
     },
     {
       "campus": "Seattle",
-      "degree": "Public Health-Global Health",
+      "degree": "Public Health-Global Health (BA)",
       "filepath": null
     },
     {
       "campus": "Seattle",
-      "degree": "Public Health-Global Health",
+      "degree": "Public Health-Global Health (BS)",
       "filepath": null
     },
     {
