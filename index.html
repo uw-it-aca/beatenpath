@@ -36,9 +36,6 @@
         <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
             <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"><h1>Beaten Path</h1></a>
             <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search degree programs" aria-label="Search">-->
-            <select id="degree-select" class="form-control form-control-dark w-100 form-control-lg">
-                <option>Loading...</option>
-            </select>
         </nav>
 
     <div class="container-fluid">
@@ -84,7 +81,10 @@
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                <h2 id="degree-title" class="h2"></h2>
+                <h2 id="degree-title" class="h2" style="display:none;"></h2>
+                <select id="degree-select" class="form-control w-75">
+                    <option>Loading...</option>
+                </select>
                 <div class="btn-toolbar mb-2 mb-md-0">
                     <div class="btn-group mr-2">
                         <button class="btn btn-sm btn-outline-secondary">Share</button>
