@@ -27,6 +27,7 @@
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
         <!-- custom BP stylesheet -->
         <link href="css/styles.css" rel="stylesheet">
         <title>Beaten Path</title>
@@ -38,78 +39,83 @@
             <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search degree programs" aria-label="Search">-->
         </nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-                <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">
-                                <span data-feather="home"></span>
-                                Welcome {UWNetID} <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                        <span>Degree Programs</span>
-                    </h3>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                        </li>
-                    </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    <span data-feather="home"></span>
+                                  Welcome {UWNetID} <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                          <span>Degree Programs</span>
+                        </h3>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                            </li>
+                        </ul>
 
-                    <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                        <span>Filter data</span>
-                    </h3>
-                    <ul class="nav flex-column mb-2">
-                        <li class="nav-item">
-                        </li>
-                    </ul>
-                    <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                        <span>About this data</span>
-                    </h3>
-                    <ul class="nav flex-column mb-2">
-                        <li class="nav-item">
-                        <p class="px-3"><!--
-                                    <span>2013-2018</span><br>
-                                    <span>78 Students</span> -->
-                        </p>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                <h2 id="degree-title" class="h2" style="display:none;"></h2>
-                <select id="degree-select" class="form-control w-75">
-                    <option>Loading...</option>
-                </select>
-                <div class="btn-toolbar mb-2 mb-md-0">
-                    <div class="btn-group mr-2">
-                        <button class="btn btn-sm btn-outline-secondary">Share</button>
-                        <button class="btn btn-sm btn-outline-secondary">Export</button>
+                        <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                          <span>Filter data</span>
+                        </h3>
+                        <ul class="nav flex-column mb-2">
+                            <li class="nav-item">
+                            </li>
+                        </ul>
+                        <h3 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                          <span>About this data</span>
+                        </h3>
+                        <ul class="nav flex-column mb-2">
+                            <li class="nav-item">
+                            <p class="px-3"><!--
+                                      <span>2013-2018</span><br>
+                                      <span>78 Students</span> -->
+                            </p>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                </nav>
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                        <h2 id="degree-title" class="h2" style="display:none;"></h2>
+                        <select id="degree-select" class="form-control w-75">
+                            <option>Loading...</option>
+                        </select>
+                        <div class="btn-toolbar mb-2 mb-md-0">
+                            <div class="btn-group mr-2">
+                                <button class="btn btn-sm btn-outline-secondary">Share</button>
+                                <button class="btn btn-sm btn-outline-secondary">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <!-- <img src="#" alt="" title="test" /> -->
+                        <img src="assets/INFO_20-BSInformatics_InformationArchitecture.png" alt="INFO_20-BSInformatics_ InformationArchitecture" width="900" title="" />
+                    </div>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Submit Feedback
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6Ep_I67q9YiVP689CKKFPxliLrWS4T7gXAoPQaDUxEZf-ow/viewform?embedded=true" width="640" height="453" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                      </div>
+                    </div>
+                </main>
             </div>
-            <div class="my-4">
-                <img src="#" alt="" title="test" />
-                <!-- <img src="assets/INFO_20-BSInformatics_InformationArchitecture.png" alt="INFO_20-BSInformatics_ InformationArchitecture" width="900" title="" /> -->
-            </div>
-        </main>
-    </div>
-</div>
+        </div>
 
-    <!-- Core JavaScript -->
+        <!-- Core JavaScript -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <!-- Icons -->
-    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
-    <script>
-      feather.replace()
-    </script>
-
-  </body>
+        <!-- Icons -->
+        <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+        <script>
+          feather.replace()
+        </script>
+    </body>
 </html>
