@@ -402,7 +402,7 @@
     {
       "campus": "Seattle",
       "degree": "Drama",
-      "filepath": "dataviz/DRAMA_00-Bachelor%20of%20Arts%20with%20a%20major%20in%20Drama.png" 
+      "filepath": "dataviz/DRAMA_00-Bachelor%20of%20Arts%20with%20a%20major%20in%20Drama.png"
     },
     {
       "campus": "Seattle",
@@ -467,7 +467,7 @@
     {
       "campus": "Seattle",
       "degree": "Electrical Engineering",
-      "filepath": "dataviz/B%20EE_00-Bachelor%20of%20Science%20in%20Electrical%20Engineering.png" 
+      "filepath": "dataviz/B%20EE_00-Bachelor%20of%20Science%20in%20Electrical%20Engineering.png"
     },
     {
       "campus": "Seattle",
@@ -592,7 +592,7 @@
     {
       "campus": "Seattle",
       "degree": "Human Centered Design and Engineering",
-      "filepath": "dataviz/HCDE_00-Bachelor%20of%20Science%20in%20Human%20Centered%20Design%20and%20Engineering.png" 
+      "filepath": "dataviz/HCDE_00-Bachelor%20of%20Science%20in%20Human%20Centered%20Design%20and%20Engineering.png"
     },
     {
       "campus": "Seattle",
@@ -607,7 +607,7 @@
     {
       "campus": "Seattle",
       "degree": "Informatics: Human-Computer Interaction",
-      "filepath": "dataviz/INFO_10-Bachelor%20of%20Science%20in%20Informatics_%20%20Human-Computer%20Interaction.png" 
+      "filepath": "dataviz/INFO_10-Bachelor%20of%20Science%20in%20Informatics_%20%20Human-Computer%20Interaction.png"
     },
     {
       "campus": "Seattle",
@@ -618,6 +618,7 @@
       "campus": "Seattle",
       "degree": "Informatics",
       "filepath": "dataviz/INFO_00-Bachelor%20of%20Science%20in%20Informatics.png"
+    },
     {
       "campus": "Seattle",
       "degree": "Informatics: Data Science",
@@ -702,6 +703,7 @@
       "campus": "Seattle",
       "degree": "Materials Science and Engineering",
       "filepath": "dataviz/MS%20E_00-Bachelor%20of%20Science%20in%20Materials%20Science%20and%20Engineering.png"
+    },
     {
       "campus": "Seattle",
       "degree": "Mathematics (BA)",
@@ -715,7 +717,7 @@
     {
       "campus": "Seattle",
       "degree": "Mathematics: Teacher Preparation",
-      "filepath": "dataviz/MATH_10-Bachelor%20of%20Arts%20with%20a%20major%20in%20Mathematics_%20Teacher%20Preparation.png" 
+      "filepath": "dataviz/MATH_10-Bachelor%20of%20Arts%20with%20a%20major%20in%20Mathematics_%20Teacher%20Preparation.png"
     },
     {
       "campus": "Seattle",
@@ -816,6 +818,7 @@
       "campus": "Seattle",
       "degree": "Nursing",
       "filepath": "dataviz/NURS_00-Bachelor%20of%20Science%20in%20Nursing.png"
+    },
     {
       "campus": "Seattle",
       "degree": "Oceanography",
@@ -889,7 +892,7 @@
     {
       "campus": "Seattle",
       "degree": "Russian Language, Literature, and Culture",
-      "filepath": "dataviz/RUSS_00-Bachelor%20of%20Arts%20with%20a%20major%20in%20Russian%20Language,%20Literature,%20and%20Culture.png" 
+      "filepath": "dataviz/RUSS_00-Bachelor%20of%20Arts%20with%20a%20major%20in%20Russian%20Language,%20Literature,%20and%20Culture.png"
     },
     {
       "campus": "Seattle",
