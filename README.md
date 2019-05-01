@@ -11,7 +11,7 @@ $ npm install
 
 ## Development
 ```
-npm run serve --watch
+$ npm run serve --watch
 ```
 
 View your app: http://localhost:8080
@@ -19,5 +19,7 @@ View your app: http://localhost:8080
 
 ## Deployment
 ```
-npm run build
+$ npm run build
 ```
+
+FTP the contents of the 'dist' directory to your desired Staff page subfolder (i.e. 'beatenpath')
