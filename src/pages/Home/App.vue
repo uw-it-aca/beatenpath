@@ -14,9 +14,9 @@
         </div>
     </div>
 
-    <div class="my-4">
-        <!-- <img src="#" alt="" title="test" /> -->
-        <img src="/assets/INFO_20-BSInformatics_InformationArchitecture.png" alt="INFO_20-BSInformatics_ InformationArchitecture" width="900" title="" />
+    <div id="filepathPng" class="my-4">
+        <!--<img id="filepathPng" src="#" width="900" /> -->
+        <!--<img src="/assets/INFO_20-BSInformatics_InformationArchitecture.png" alt="INFO_20-BSInformatics_ InformationArchitecture" width="900" title="" /> -->
     </div>
     <a class="btn btn-primary" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">
       Submit Feedback
@@ -57,16 +57,24 @@ export default {
         // Populate drop down menu with degrees from JSON
         var $degreeSelector = $("#degree-select");
         $degreeSelector.empty();
-        $degreeSelector.append("<option selected>Select a degree program</option>")
+        $degreeSelector.append("<option>Select a degree program</option>")
         $.each(data, function(key, value) {
             $degreeSelector.append("<option>" + value.degree + "</option>")
-        });
-    });
-
-  }
-
-}
-</script>
+          });
+          $('#degree-select').change(function(){
+            var optionSelected = this.value;
+            for (var i = 0; i < data.length; i++){
+                if (data[i].degree == optionSelected) {
+                  document.getElementById("filepathPng").innerHTML = "<img src=" + data[i].filepath + " width='900'>";
+                  break;
+                }
+                else { console.log(data[i].degree);}
+              }
+          });
+    });//.getJSON
+  }//mounted
+}//export
+  </script>
 
 <style lang="scss">
 @import '@/static/css/_mixins.scss';
