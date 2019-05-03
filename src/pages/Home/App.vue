@@ -7,10 +7,10 @@
             <option>Loading...</option>
         </select>
         <div class="btn-toolbar mb-2 mb-md-0">
-            <div class="btn-group mr-2">
+            <!-- <div class="btn-group mr-2">
                 <button class="btn btn-sm btn-outline-secondary">Share</button>
                 <button class="btn btn-sm btn-outline-secondary">Export</button>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -27,10 +27,10 @@
       </div>
     </div>
 
-    <div><img alt="Vue logo" src="@/static/img/logo.png"></div>
+    <!--<div><img alt="Vue logo" src="@/static/img/logo.png"></div>
 
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <MyCard/>
+    <MyCard/>-->
 
   </div>
 
@@ -43,8 +43,8 @@ import MyCard from '@/components/MyCard.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
-    MyCard
+    //HelloWorld,
+    //MyCard
   },
 
   mounted: function() {
@@ -78,5 +78,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #333;
+  margin-top:1.3em;
 }
 </style>
