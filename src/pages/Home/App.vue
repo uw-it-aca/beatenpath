@@ -15,8 +15,7 @@
     </div>
 
     <div id="filepathPng" class="my-4">
-        <!--<img id="filepathPng" src="#" width="900" /> -->
-        <!--<img src="/assets/INFO_20-BSInformatics_InformationArchitecture.png" alt="INFO_20-BSInformatics_ InformationArchitecture" width="900" title="" /> -->
+
     </div>
     <a class="btn btn-primary" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">
       Submit Feedback
@@ -64,11 +63,14 @@ export default {
           $('#degree-select').change(function(){
             var optionSelected = this.value;
             for (var i = 0; i < data.length; i++){
-                if (data[i].degree == optionSelected) {
+                if ((data[i].degree == optionSelected) && (data[i].filepath != null)) {
                   document.getElementById("filepathPng").innerHTML = "<img src=" + data[i].filepath + " width='900'>";
                   break;
                 }
-                else { console.log(data[i].degree);}
+                else {
+                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning' role='alert'>The selected dataset is not currently available. Please select a different degree program.</div>";
+
+                }
               }
           });
     });//.getJSON
