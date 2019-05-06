@@ -15,10 +15,22 @@
     </div>
 
     <div id="filepathPng" class="my-4">
-
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">Welcome to Beaten Path</h5>
+          <p class="card-text">
+            <ul class="list-unstyled">
+                <li>Thanks for your participation in reviewing the prototype for this new tool! </li>
+                <li><strong>Your feedback is important to help UW-IT build the best tool possible.</strong></li>
+                <li>After you've had a chance to review the data provided, please <strong>answer a short survey</strong> about your experience. The survey form can be accessed from the blue "Share Feedback" button below at any time.</li>
+                <li>Please begin by selecting a degree program from the dropdown menu above.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
     <a class="btn btn-primary" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">
-      Submit Feedback
+      Share Feedback
     </a>
     <div class="collapse" id="collapseForm">
       <div class="card card-body">
@@ -68,7 +80,7 @@ export default {
                   break;
                 }
                 else {
-                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning' role='alert'>The selected dataset is not currently available. Please select a different degree program.</div>";
+                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning w-75' role='alert'>The selected dataset for <strong>" + optionSelected + "</strong> is not currently available. Please select a different degree program.</div>";
 
                 }
               }
@@ -89,5 +101,6 @@ export default {
   //text-align: center;
   color: #333;
   margin-top:1.3em;
+  font-size: 1.2rem;
 }
 </style>
