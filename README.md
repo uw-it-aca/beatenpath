@@ -18,6 +18,9 @@ View your app: http://localhost:8080
 
 
 ## Deployment
+
+Note: edit publicPath value on vue.config.js if deploying to subfolder: https://cli.vuejs.org/config/#publicpath 
+
 ```
 $ npm run build
 ```
