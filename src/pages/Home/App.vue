@@ -48,8 +48,8 @@
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
-import MyCard from '@/components/MyCard.vue'
+//import HelloWorld from '@/components/HelloWorld.vue'
+//import MyCard from '@/components/MyCard.vue'
 
 export default {
   name: 'Home',
@@ -61,7 +61,7 @@ export default {
   mounted: function() {
 
     // populate degree dropdown menu
-    $.getJSON('/data.json', function (data) {
+    $.getJSON('./data.json', function (data) {
         // Work with your JSON data here..
         console.log("degree " + data[0].degree);
         console.log("filepath " + data[0].filepath)
