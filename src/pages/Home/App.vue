@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-4 mb-4 border-bottom">
         <h2 id="degree-title" class="h2" style="display:none;"></h2>
         <select id="degree-select" class="form-control w-75">
             <option>Loading...</option>
@@ -17,15 +17,13 @@
     <div id="filepathPng" class="my-4">
       <div class="card w-75">
         <div class="card-body">
-          <h5 class="card-title">Welcome to Beaten Path</h5>
-          <p class="card-text">
-            <ul class="list-unstyled">
-                <li>Thanks for your participation in reviewing the prototype for this new tool! </li>
-                <li><strong>Your feedback is important to help UW-IT build the best tool possible.</strong></li>
-                <li>After you've had a chance to review the data provided, please <strong>answer a short survey</strong> about your experience. The survey form can be accessed from the blue "Share Feedback" button below at any time.</li>
-                <li>Please begin by selecting a degree program from the dropdown menu above.</li>
-            </ul>
-          </p>
+          <h3 class="card-title">Welcome to Beaten Path</h3>
+          <div class="card-text">
+            <p>Thanks for your participation in reviewing the prototype for this new tool! Select a degree program from the dropdown menu above to get started.</p>
+
+            <p><strong>Your feedback is important to help UW-IT build the best tool possible.</strong> After you've had a chance to review the data provided, please <strong>answer a short survey</strong> about your experience. The survey form can be accessed from the blue "Share Feedback" button below at any time.</p>
+
+        </div>
         </div>
       </div>
     </div>
