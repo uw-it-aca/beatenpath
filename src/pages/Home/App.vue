@@ -78,7 +78,7 @@ export default {
                   break;
                 }
                 else {
-                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning w-75' role='alert'>The selected dataset for <strong>" + optionSelected + "</strong> is not currently available. Please select a different degree program.</div>";
+                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning w-75' role='alert'><p>The selected dataset for <strong>" + optionSelected + "</strong> is unavailable. Datasets for degree programs with fewer than five graduates are not provided to ensure reliable statistics and privacy for students.</p><p>Please select a different degree program.</p></div>";
 
                 }
               }
