@@ -74,7 +74,7 @@ export default {
             var optionSelected = this.value;
             for (var i = 0; i < data.length; i++){
                 if ((data[i].degree == optionSelected) && (data[i].filepath != null)) {
-                  document.getElementById("filepathPng").innerHTML = "<img src=" + data[i].filepath + " width='850'>";
+                  document.getElementById("filepathPng").innerHTML = "<img src=" + data[i].filepath + " width='880'>";
                   break;
                 }
                 else {
