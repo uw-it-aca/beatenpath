@@ -1,21 +1,26 @@
 <template>
   <div id="app">
 
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-4 mb-4 border-bottom">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-4 border-bottom">
         <h2 id="degree-title" class="h2" style="display:none;"></h2>
-        <select id="degree-select" class="form-control w-75">
-            <option>Loading...</option>
-        </select>
-        <div class="btn-toolbar mb-2 mb-md-0">
-            <!-- <div class="btn-group mr-2">
-                <button class="btn btn-sm btn-outline-secondary">Share</button>
-                <button class="btn btn-sm btn-outline-secondary">Export</button>
-            </div> -->
+        <div class="form-row">
+          <div class="form-group col-md-2">
+            <select class="form-control">
+                <option select>Seattle</option>
+                <option disabled>Tacoma</option>
+                <option disabled>Bothell</option>
+              </select>
+          </div>
+          <div class="form-group col-md-10">
+              <select id="degree-select" class="form-control">
+                  <option>Loading...</option>
+              </select>
+          </div>
         </div>
     </div>
 
     <div id="filepathPng" class="my-4">
-      <div class="card w-75">
+      <div class="card">
         <div class="card-body">
           <h3 class="card-title">Welcome to Beaten Path</h3>
           <div class="card-text">
@@ -78,7 +83,7 @@ export default {
                   break;
                 }
                 else {
-                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning w-75' role='alert'><p>The selected dataset for <strong>" + optionSelected + "</strong> is unavailable. Datasets for degree programs with fewer than five graduates are not provided to ensure reliable statistics and privacy for students.</p><p>Please select a different degree program.</p></div>";
+                  document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning' role='alert'><p>The selected dataset for <strong>" + optionSelected + "</strong> is unavailable. Datasets for degree programs with fewer than five graduates are not provided to ensure reliable statistics and privacy for students.</p><p>Please select a different degree program.</p></div>";
 
                 }
               }
@@ -100,5 +105,6 @@ export default {
   color: #333;
   margin-top:1.3em;
   font-size: 1.2rem;
+  max-width:900px;
 }
 </style>
