@@ -19,12 +19,14 @@
         </div>
     </div>
 
-
+    <div>
     <select v-model="selected">
+        <option value="" disabled>Select a degree program</option>
         <option v-for="option in options" v-bind:value="option">
             {{ option.degree }}
         </option>
     </select>
+</div>
 
     <div>Selected: {{ selected }}</div>
 
@@ -95,7 +97,7 @@ export default {
 
     data() {
         return {
-            selected: [],
+            selected: '',
             options: []
         }
     },
