@@ -12,24 +12,20 @@
                 </select>
             </div>
             <div class="form-group col-md-10">
-                <select id="degree-select" class="form-control">
-                    <option>Loading...</option>
+
+                <!-- vue implementation of dropdown menu -->
+                <select v-model="selected" class="form-control">
+                    <option value="" disabled>Select a degree program</option>
+                    <option v-for="option in options" v-bind:value="option">
+                        {{ option.degree }}
+                    </option>
                 </select>
+
             </div>
         </div>
     </div>
 
-    <div>
-    <select v-model="selected">
-        <option value="" disabled>Select a degree program</option>
-        <option v-for="option in options" v-bind:value="option">
-            {{ option.degree }}
-        </option>
-    </select>
-</div>
-
-    <div>Selected: {{ selected }}</div>
-
+    <!-- display to start with... selected object is empty -->
     <div v-if="Object.keys(selected).length === 0" class="card">
         <div class="card-body">
             <h3 class="card-title">Welcome to Beaten Path</h3>
@@ -43,31 +39,16 @@
         </div>
     </div>
 
+    <!-- if a filepath was returned -->
     <img v-if="selected.filepath !== null" v-bind:src="selected.filepath" />
+    <!-- else, show the no image message -->
     <div v-else class='alert alert-warning' role='alert'>
         <p>The selected dataset for <strong>{{selected.degree}}</strong> is unavailable. Datasets for degree programs with fewer than five graduates are not provided to ensure reliable statistics and privacy for students.</p>
         <p>Please select a different degree program.</p>
     </div>
 
-    <!--
-    <div id="filepathPng" class="my-4">
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">Welcome to Beaten Path</h3>
-                <div class="card-text">
-                    <p>Thanks for your participation in reviewing the prototype for this new tool! Select a degree program from the dropdown menu above to get started.</p>
-
-                    <p><strong>Your feedback is important to help UW-IT build the best tool possible.</strong> After you've had a chance to review the data provided, please <strong>answer a short survey</strong> about your experience. The survey form
-                        can be accessed from the blue "Share Feedback" button below at any time.</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
--->
-
-
-    <a class="btn btn-primary" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">
+    
+    <a class="btn btn-primary mt-4" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">
         Share Feedback
     </a>
     <div class="collapse" id="collapseForm">
@@ -105,7 +86,7 @@ export default {
     methods: {
 
         getPrograms: function() {
-            console.log("hellow world");
+            // get program data and pass to options object
             $.getJSON({
                 url: "./data.json",
                 success: results => this.options = results
@@ -118,32 +99,6 @@ export default {
 
         this.getPrograms()
 
-        // populate degree dropdown menu
-        $.getJSON('./data.json', function(data) {
-            // Work with your JSON data here..
-            console.log("degree " + data[0].degree);
-            console.log("filepath " + data[0].filepath)
-            // Populate drop down menu with degrees from JSON
-            var $degreeSelector = $("#degree-select");
-            $degreeSelector.empty();
-            $degreeSelector.append("<option>Select a degree program</option>")
-            $.each(data, function(key, value) {
-                $degreeSelector.append("<option>" + value.degree + "</option>")
-            });
-            $('#degree-select').change(function() {
-                var optionSelected = this.value;
-                for (var i = 0; i < data.length; i++) {
-                    if ((data[i].degree == optionSelected) && (data[i].filepath != null)) {
-                        document.getElementById("filepathPng").innerHTML = "<img src=" + data[i].filepath + " width='880'>";
-                        break;
-                    } else {
-                        document.getElementById("filepathPng").innerHTML = "<div class='alert alert-warning' role='alert'><p>The selected dataset for <strong>" + optionSelected +
-                            "</strong> is unavailable. Datasets for degree programs with fewer than five graduates are not provided to ensure reliable statistics and privacy for students.</p><p>Please select a different degree program.</p></div>";
-
-                    }
-                }
-            });
-        }); //.getJSON
     } //mounted
 } //export
 </script>
