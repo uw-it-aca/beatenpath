@@ -4,7 +4,7 @@ AXDD Beaten Path
 
 ## Initial Setup
 ```
-$ git clone https://github.com/bexar/beatenpath
+$ git clone https://github.com/uw-it-aca/beatenpath
 $ cd beatenpath
 $ npm install
 ```
