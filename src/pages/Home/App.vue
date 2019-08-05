@@ -28,7 +28,7 @@
     <!-- display to start with... selected object is empty -->
     <div v-if="Object.keys(selected).length === 0" class="card">
         <div class="card-body">
-            <h3 class="card-title">Welcome to Beaten Path</h3>
+            <h3 class="card-title">Welcome to Beaten Paths</h3>
             <div class="card-text">
                 <p>Thanks for your participation in reviewing the prototype for this new tool! Select a degree program from the dropdown menu above to get started.</p>
 
