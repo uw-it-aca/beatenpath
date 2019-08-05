@@ -30,8 +30,8 @@
         <div class="card-body">
             <h3 class="card-title">Welcome to Beaten Paths</h3>
             <div class="card-text">
-                <p>Thanks for your participation in reviewing the prototype for this new tool! Select a degree program from the dropdown menu above to get started.</p>
-
+                <p>Thanks for your participation in reviewing the prototype for this new tool! <strong>Select a degree program from the dropdown menu above to get started.</strong></p>
+                <div class="bp-description"><p>Students often make uninformed decisions about the sequence of courses they take during their academic careers, which may result in winding paths. This tool addresses this problem by showing advisers the most common paths (Beaten Paths) graduates took on their way to a degree. Inspired by the successful paths of graduates, advisers can use this information to plan a sequence of courses for a students that best meet their needs and interests.</p></div>
                 <p><strong>Your feedback is important to help UW-IT build the best tool possible.</strong> After you've had a chance to review the data provided, please <strong>answer a short survey</strong> about your experience. The survey form
                     can be accessed from the blue "Share Feedback" button below at any time.</p>
 

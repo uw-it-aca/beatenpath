@@ -73,6 +73,14 @@ body {
   padding-top: 50px; /* Space for fixed navbar */
 }
 
+.bp-description {
+  font-style: italic;
+  border-left: 1px solid rgba(0,0,0,.125);
+  padding-left: 1.25rem;
+  margin-bottom: 1.50rem;
+  margin-top: 1.50rem;
+}
+
 /*
  * Navbar
  */
